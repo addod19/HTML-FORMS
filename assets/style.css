@@ -44,7 +44,8 @@ body {
 .navbar,
 .header,
 .products,
-.form-container {
+.form-container,
+form {
     display: flex;
 }
 .navbar,
@@ -178,7 +179,6 @@ input {
     border-radius: 2px;
 }
 form {
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 390px;
