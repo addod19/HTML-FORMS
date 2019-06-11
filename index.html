@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>Create an Intuit account</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <!-- begin navbar -->
+    <nav class="navbar">
+        <div class="user">
+            <div>Already have an Intuit account?</div>
+            <a href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="sign-in">
+            <button>
+                <img src="./assets/icons/lock.png" alt="lock" />
+                Sign In
+            </button>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- begin header -->
+    <header class="header">
+        <img src="./assets/svg/intuitLogo.png" alt="Brand logo" />
+    </header>
+    <!-- end header -->
+    <!-- begin main -->
+    <main class="main">
+        <div class="products">
+            <img class="all" src="./assets/svg/all.png" alt="All logo" />
+        </div>
+        <!--beg form container-->
+        <div class="form-container">
+
+            <!-- begin form header-->
+            <div class="form-header">
+                <h3 class="form-title">Create an Intuit account</h3>
+                <!--beg form desc-->
+                <div class="form-description">
+                    One Account for all of Intuit's products
+                    <span>including Mint. <a href="#">Learn more</a></span>
+                </div>
+                <!--end form desc-->
+            </div>
+            <!-- end form header -->
+            <!--beg form-->
+            <form action="#" method="POST">
+
+                <fieldset>
+                    <label for="email">Email address </label>
+                    <input type="email" name="email" id="email" required /><br />
+                </fieldset>
+
+                <fieldset>
+                    <label for="phone">Phone(recommended) </label>
+                    <input type="tel" name="phone" id="phone" required />
+                    <small>Standard call, messaging or data rates may apply.</small><br />
+                </fieldset>
+
+                <fieldset>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required />
+                    <small class="password-icon"></small>
+                </fieldset>
+                <button type="submit">
+                    <img src="./assets/icons/lock.png" alt="Create account button" />
+                    create account
+                </button>
+            </form>
+            <!--end form -->
+            <div class="before-captcha">
+                <span>By clicking Create Account, you agree to our</span>
+                <span><a href="#">Terms of Service</a> and have read and acknowledge
+                    <br />our <a href="#">Privacy Statement</a>
+                </span>
+            </div>
+
+            <div class="captcha">
+                <p>
+                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+                    <a href="#">Terms of Use</a>.
+                </p>
+            </div>
+        </div>
+        <!-- end form container -->
+    </main>
+    <!-- end main -->
+    <!-- begin footer -->
+    <footer class="footer">
+        <!-- begin top footer -->
+        <div class="top-footer">
+            <span>Legal</span> <span>Privacy</span> <span>Security</span>
+        </div>
+        <!-- end top footer -->
+        <!-- begin below footer -->
+        <div class="below-footer">
+            <span>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                registered
+                trademarks of Intuit Inc. <br> <span>Terms and conditions, features, support, pricing, and service
+                    options
+                    subject to change without notice.</span></span>
+        </div>
+        <!-- end below footer -->
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>
