@@ -12,7 +12,13 @@ A practical demonstration of designing an HTML form. This project is designed to
 
 ## Screenshots
 
-<img src="assets/icons/fa.png">
+<img src="assets/icons/fa.PNG">
+<img src="assets/icons/fa1.PNG">
+<img src="assets/icons/fa2.PNG">
+<img src="assets/icons/fa3.PNG">
+<img src="assets/icons/fa4.PNG">
+<img src="assets/icons/fa5.PNG">
+<img src="assets/icons/fa6.PNG">
 
 ## Usage
 
