@@ -10,6 +10,10 @@ A practical demonstration of designing an HTML form. This project is designed to
 - HTML
 - CSS
 
+## Screenshots
+
+<img src="./assets/icons/fa">
+
 ## Usage
 
 
@@ -29,7 +33,7 @@ $ cd HTML-FORMS
 ## Deployment
 
 
-You can find the demo page [here]()
+You can find the demo page [https://addod19.github.io/HTML-FORMS/]()
 
 ## Author
 
@@ -38,7 +42,7 @@ You can find the demo page [here]()
 ## Contributing 
 
 
-1. Fork it (https://github.com/addod19/HTML-FORMS/fork)
+1.  Fork it (https://github.com/addod19/HTML-FORMS/fork)
 2.  Create your feature branch (git checkout -b feature/[choose-a-name])
 3.  Commit your changes (git commit -m "what we are commiting")
 4.  Add to the branch (git add .)
